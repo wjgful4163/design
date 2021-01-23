@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 public class CouponServiceImpl implements CouponService {
     @Override
     public CouponResult sendCoupon(Integer uId, String couponNumber, String uuid) {
+
         return CouponResult.success();
     }
 }
